@@ -1,0 +1,11 @@
+{
+  "name": "julyten_server",
+  "version": "0.0.0",
+  "description": "Server-side for July Ten project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Lam",
+  "license": "MIT"
+}

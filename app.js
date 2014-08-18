@@ -1,6 +1,7 @@
-var express = require('express');
-var http = require('http');
-var app = express();
+var express = require('express'),
+    http = require('http'),
+    app = express();
+
 var data = require('./routes/data.js');
 
 app.set('port', process.env.PORT || 3000);

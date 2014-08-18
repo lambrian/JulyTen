@@ -10,6 +10,7 @@
       "url": "https://github.com/lambrian/julyten_server.git"
   }, 
   "dependencies": {
-      "express": "3.x"
+      "express": "3.x",
+      "xhr2": ""
   }
 }

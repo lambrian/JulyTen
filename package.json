@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "description": "Server-side for July Ten project.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Brian Lam",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/lambrian/julyten_server.git"
+  }, 
+  "dependencies": {
+      "express": "3.x",
+      "dropbox": "0.10.3"
+  }
 }

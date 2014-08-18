@@ -1,0 +1,26 @@
+.metric-list {
+  list-style-type: none;
+}
+
+.metric-item
+{
+  padding: 5px;
+}
+
+.metric-name
+{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.metric-value
+{
+  font-size: 40px;
+  margin: 0;
+  line-height: 0.8
+}
+
+body
+{
+  font-family: 'HelveticaNeue-Light';
+}

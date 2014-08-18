@@ -1,9 +1,35 @@
 <html>
     <head>
         <title>July Ten</title>
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     </head>
     <body>
-        <ul id="metrics"></ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="header date" id="header-date">
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 metric-col-1">
+                    <ul class="metric-list" id="metric-list-1">
+                        <li id="pages-read"></li>
+                        <li id="reps-completed"></li>
+                        <li id="photos-uploaded"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 metric-col-2">
+                </div>
+                <div class="col-md-4 metric-col-3">
+                    <ul class="metric-list">
+                        <li id="distance-ran">
+                        <li id="distance-transport"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
     </body>

@@ -4,3 +4,6 @@ node_modules/tokens/
 # ignore installed modules
 node_modules/express/
 node_modules/xhr2/
+node_modules/jquery
+node_modules/cron
+node_modules/request

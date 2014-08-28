@@ -1,5 +1,5 @@
 # ignore authentication tokens dir
-node_modules/tokens/
+#node_modules/tokens/
 
 # ignore installed modules
 node_modules/express/

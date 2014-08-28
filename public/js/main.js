@@ -17,7 +17,7 @@ $(function() {
 
     $(document).ready(function() {
         var daily = ["Pushups", "Photos Uploaded", "Pages Read"];
-        var ytd = ["Running Distance", "Transport Distance", "Walking Distance", "Time At Home", "Time At Zendesk 1019"];
+        var ytd = ["Running Distance", "Transport Distance", "Walking Distance", "Time At Home", "Time At Work"];
 
         $.ajax({
             url: window.location.origin + "/data",

@@ -8,7 +8,6 @@ $(function() {
     }
 
     function displayMetrics(data, status) {
-        debugger;
         $metrics = $("#metric-list-1");
         for (var metric in data) {
             $metrics.append(createMetricItem(metric, data[metric]));
